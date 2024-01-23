@@ -2,6 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
 
+You can download the proyect and use it running the next docker image for the enviorement,inside the main project folder:
+
+docker run -it -v ${PWD}:/usr/src/app -v /usr/src/app/node_modules -p 4200:4200 mflober/angular17-image:1.3
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
